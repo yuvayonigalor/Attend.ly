@@ -1,0 +1,143 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+	<style>
+			h2, h2:hover, p, p:hover {
+				color:white;
+			}
+			.container h2 {
+				width: 40%;
+				margin: 100px auto 0 auto;
+			}
+			.container form{
+				width: 40%; 
+				margin: 20px auto 0px auto;
+			}
+			@media (max-width:991px) {
+				.container h2 {
+					width: 70%
+				}
+				.container form{
+					width: 70%
+				}
+			}
+			@media (max-width:767px) {
+				.container h2 {
+					width: 80%
+				}
+				.container form{
+					width: 80%
+				}
+			}
+			@media (max-width:600px) {
+				.container h2 {
+					width: 100%
+				}
+				.container form{
+					width: 100%
+				}
+			}
+			body {
+				background: url('images/green-blank-board.jpg');
+        		background-size:cover;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+		<div class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index.html"><strong>Attend.ly</strong></a>
+	        </div>
+	        <div class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav">
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	          </ul>
+	          <ul class="nav navbar-nav navbar-right">
+	            <li class="active"><a href="log_in.html">Log In</a></li>
+	            <li><a href="sign_up.html">Sign Up</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+    	</div>
+    	</header>
+    <div class="container">
+
+
+        <h2 style="margin-top:100px; margin-bottom:-">Instructor Log In</h2>
+    	<form class="well form-horizontal" role="form" style="margin-bottom:100px;">
+            <div class="form-group">
+			    <label for="inputEmail1" class="col-lg-2 control-label">Username</label>
+			    <div class="col-lg-10">
+			      <input type="email" class="form-control" id="inputEmail1" placeholder="Enter ID">
+			    </div>
+			  </div>
+            <div class="form-group">
+			    <label for="inputPassword1" class="col-lg-2 control-label">Password</label>
+			    <div class="col-lg-10">
+			      <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+			    </div>
+			  </div>
+			 <div style="margin-left:2.5px; "class="form-group">
+			     <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Remember me</input>
+				      <a style="padding-left:175px">Forgot Password?</a>
+				    </label>
+				 </div>
+			</div>
+          <a href="sign_up_part2.html "type="button" type="submit" class="btn btn-primary btn-block">Log In</a>
+        </form>
+            	<h2 style="margin-top:-30px;">Student Log In</h2>
+    	<form class="well form-horizontal" role="form">
+            <div class="form-group">
+			    <label for="inputEmail1" class="col-lg-2 control-label">Username</label>
+			    <div class="col-lg-10">
+			      <input type="email" class="form-control" id="inputEmail1" placeholder="Enter ID">
+			    </div>
+			  </div>
+            <div class="form-group">
+			    <label for="inputPassword1" class="col-lg-2 control-label">Password</label>
+			    <div class="col-lg-10">
+			      <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+			    </div>
+			  </div>
+			 <div style="margin-left:2.5px;"class="form-group">
+			     <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Remember me </input>
+				      <a style="padding-left:175px">Forgot Password?</a>
+				    </label>
+				 </div>
+			</div>
+          <a type="button" href="student_registration.html" type="submit" class="btn btn-primary btn-block">Log In</a>
+        </form>
+
+
+
+     <hr class="featurette-divider">
+
+    	<footer>
+        <p><strong>&copy; 2013 Attend.ly</strong></p>
+      </footer>
+
+    </div><!-- /.container -->
+		
+		<script src="js/jquery.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="http://getbootstrap.com/assets/js/holder.js"></script>
+    </body>
+</html>
